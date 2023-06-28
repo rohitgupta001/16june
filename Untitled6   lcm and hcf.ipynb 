@@ -1,0 +1,96 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyOzosxprDpVfrrNKLygFtPZ",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/rohitgupta001/16june/blob/main/Untitled6%20%20%20lcm%20and%20hcf.ipynb%20\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 1,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "HVU7Xb7oiA9D",
+        "outputId": "ab40f8d2-0574-442e-fed9-8f80b6c59cb0"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "144\n"
+          ]
+        }
+      ],
+      "source": [
+        "\n",
+        "a=16\n",
+        "b=18\n",
+        "c=max(a,b)\n",
+        "while (c%b!=0 or c%a!=0):\n",
+        " c+=1\n",
+        "print(c)"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "a=30\n",
+        "b=9\n",
+        "c=min(a,b)\n",
+        "while (b%c!=0 or a%c!=0):\n",
+        "  c=c-1\n",
+        "print(c)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "TzF7zbXSiDEL",
+        "outputId": "8812fe67-7620-47e0-d73b-1266ae857b4d"
+      },
+      "execution_count": 3,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "3\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [],
+      "metadata": {
+        "id": "DiT63zooiJwP"
+      },
+      "execution_count": null,
+      "outputs": []
+    }
+  ]
+}
